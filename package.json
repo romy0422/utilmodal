@@ -1,8 +1,8 @@
 {
   "name": "utilmodal",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Modal pour React",
-  "main": "index.js",
+  "main": "bundle.esm.js",
   "type": "module",
   "scripts": {
     "build": "rollup --config"
