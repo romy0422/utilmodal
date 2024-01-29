@@ -1,3 +1,5 @@
+import React from 'react';
+
 const UtilModal = ({theme, children, isOpen, onClose }) => {
   if (!isOpen) return null;
 

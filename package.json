@@ -1,8 +1,8 @@
 {
   "name": "utilmodal",
-  "version": "0.1.1",
+  "version": "0.1.7",
   "description": "Modal pour React",
-  "main": "bundle.esm.js",
+  "main": "dist/bundle.esm.js",
   "type": "module",
   "scripts": {
     "build": "rollup --config"
@@ -14,7 +14,7 @@
   ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
