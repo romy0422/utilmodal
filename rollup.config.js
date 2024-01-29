@@ -14,8 +14,14 @@ export default {
   plugins: [
     resolve({ extensions }),
     commonjs(),
-    babel({ extensions, include: ['src/**/*'], babelHelpers: 'bundled' }), 
+    babel({
+      extensions,
+      include: ['src/**/*'],
+      babelHelpers: 'bundled',
+      presets: ['@babel/preset-env', '@babel/preset-react']
+    }),
     terser() 
   ],
-  external: ['react', 'react-dom'] 
+  external: ['react', 'react-dom'],
+  
 };
