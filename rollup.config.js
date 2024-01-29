@@ -2,6 +2,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
 import terser from '@rollup/plugin-terser';
+import postcss from 'rollup-plugin-postcss';
 
 const extensions = ['.js', '.jsx'];
 
@@ -20,7 +21,10 @@ export default {
       babelHelpers: 'bundled',
       presets: ['@babel/preset-env', '@babel/preset-react']
     }),
-    terser() 
+    terser(),
+    postcss({
+      extensions: ['.css'],
+    })
   ],
   external: ['react', 'react-dom'],
   
