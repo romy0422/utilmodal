@@ -1,65 +1,95 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+}
 
-.modal{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100vh;
-    z-index:1000;
-    }
-    
-    .modal-content{
-        position:fixed;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-        width:80%;
-        height:fit-content;
-        padding:20px 0;
-        border-radius: 15px;
-        box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.267);
-    }
-    
-    
-    .close-button{
-        position:absolute;
-        right:-10px;
-        top:-20px;
-        font-size:2em;
-        font-weight:400;
-        border-radius: 50px;
-        padding:10px 20px;
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.558);
-        border:none;
-    }
-    .close-button:hover{
-        filter:brightness(5);
-        cursor:pointer;
-        color:black;
-    
-    }
-    
-    .modal-green{
-        background-color: rgba(70, 52, 26, 0.403);
-    }
-    
-    .contain-green{
-        background-color:rgb(164, 222, 84);
-    }
-    .button-green{
-        background-color: rgb(32, 159, 0);
-        color:yellow;
-    }
-    
-    
-    .modal-pink{
-        background-color: rgba(206, 84, 155, 0.403);
-    }
-    
-    .contain-pink{
-        background-color:rgb(222, 120, 203);
-    }
-    .button-pink{
-        background-color: rgb(158, 0, 163);
-        color:rgb(251, 188, 255);
-    }
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: fit-content;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.267);
+    font-size: 1em;
+}
+
+
+.close-button {
+    position: absolute;
+    right: -10px;
+    top: -20px;
+    font-size: 2em;
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.558);
+    border: none;
+}
+
+.close-button:hover {
+    filter: brightness(5);
+    cursor: pointer;
+    color: black;
+
+}
+
+.modal-green {
+    background-color: rgba(70, 52, 26, 0.403);
+}
+
+.contain-green {
+    background-color: rgb(164, 222, 84);
+}
+
+.button-green {
+    background-color: rgb(32, 159, 0);
+    color: yellow;
+}
+
+
+.modal-pink {
+    background-color: rgba(206, 84, 155, 0.403);
+}
+
+.contain-pink {
+    background-color: rgb(222, 120, 203);
+}
+
+.button-pink {
+    background-color: rgb(158, 0, 163);
+    color: rgb(251, 188, 255);
+}
+
+.modal-blue {
+    background-color: rgba(84, 110, 206, 0.403);
+}
+
+.contain-blue {
+    background-color: rgb(120, 122, 222);
+}
+
+.button-blue {
+    background-color: rgb(0, 52, 163);
+    color: rgb(188, 199, 255);
+}
+
+
+.modal-black {
+    background-color: rgba(214, 214, 214, 0.403);
+}
+
+.contain-black {
+    background-color: rgb(140, 140, 140);
+}
+
+.button-black {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
