@@ -29,7 +29,7 @@ Voici un exemple simple d'utilisation du composant `UtilModal` dans une applicat
 
 ```jsx
 import React, { useState } from 'react';
-import UtilModal from './chemin/vers/UtilModal';
+import UtilModal from 'UtilModal';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

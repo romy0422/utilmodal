@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.0] - 06-02-2024
+
+### Add 
+- Version Beta déployée
+
 ## [0.1.8] - 01-02-2024
 
 ### Add 

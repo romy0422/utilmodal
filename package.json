@@ -1,6 +1,6 @@
 {
   "name": "utilmodal",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Modal pour React",
   "main": "dist/bundle.esm.js",
   "type": "module",
